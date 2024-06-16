@@ -8,7 +8,7 @@
             <div class="col-md-4">
                 <label for="nombre" class="form-label">Nombre</label>
                 <input type="text" class="form-control" id="nombre"
-                 name="nombre" value="{{ $grupo->descripcion }}"  disabled>
+                 name="nombre" value="{{ $grupo->nombre }}"  disabled>
             </div>
         </div>
         <div class="row">
